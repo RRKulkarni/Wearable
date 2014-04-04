@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/CNGearAppJQMDetails" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="RTtv56CWmp.CNGearAppJQMDetails" package="RTtv56CWmp" required_version="1.0"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>DETAILS The Regimen</name>
+    <tizen:privilege name="http://tizen.org/privilege/mediacapture"/>
+</widget>

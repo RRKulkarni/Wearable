@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+<title>Conde Nast</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css">
+<link rel="stylesheet" href="css/wearablestyle.css">
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/wearable.js"></script>
+<!-- <script type="text/javascript" src="js/database.js"></script> -->
+<script type="text/javascript">
+	
+
+</script>
+</head>
+<body>
+	<!-- Page Splash for splash screen -->
+	<div data-role="page" id="pageSplash" data-theme="b">
+		<div data-role="content" style="padding: 0; margin: 0;">
+			<img src="img/details.png" alt="startup image"
+				style="width: 100%; height: 100%; padding: 0; margin: 0;" />
+		</div>
+	</div>
+
+	<!-- Page Categories for list view screen -->
+	<div data-role="page" id="pageCategories" data-theme="b">
+		<div data-role="header" data-position="fixed"  data-fullscreen="false">
+			<img src="img/workout_selector.png" alt="header image" style="width: 100%; padding: 0; margin: 0;" />
+		</div>
+		<div data-role="content" >
+			<ul id="categories" style="list-style: none; margin: 0; padding: 0;">
+			    <li id="CORE">
+			   	 	<div align="center">
+			    	<font size="10" class="fontfamily">CORE</font>
+			    </div>	
+			    </li>
+			    <li id="ARMSSHOULDERS">
+			    	<div align="center">
+			    	<font size="10" class="fontfamily">ARMS SHOULDERS</font>
+			    	</div>
+			    </li>
+			    
+			    <li id="CHESTBACK">
+			    <div align="center">
+			    	<font size="10" class="fontfamily">CHEST BACK</font>
+			    	</div>
+			    </li>
+			    <li id="LEGS">
+			    	<div align="center">
+			    	<font size="10" class="fontfamily">LEGS</font>
+			    	</div>
+			    </li>
+			    <li id="TOTALBODY">
+			    	<div align="center">
+			    	<font size="10" class="fontfamily">TOTAL BODY</font>
+			    	</div>
+			    </li>
+			    <li id="UPPERBODY">
+			    	<div align="center">
+			    	<font size="10" class="fontfamily">UPPER BODY</font>
+			    	</div>
+			    </li>
+			    <li id="LOWERBODY">
+			    	<div align="center">
+			    	<font size="10" class="fontfamily">LOWER BODY</font>
+			    	</div>
+			    </li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed"  data-fullscreen="false">
+			<div data-role="navbar" >
+				<ul>
+					<li>
+						<div align="center" >
+							<img src="img/previous.png" id="prevbtn"/>
+						</div>
+						
+					</li>
+					<li>
+						<div align="center">
+							<img src="img/done.png" id="catselect" />
+						</div>
+					</li>
+					<li>
+						<div align="center" >
+							<img src="img/next.png" id="nextbtn">
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- page Sub Categories for list view screen -->
+	<div data-role="page" id="pageSubCategories" data-theme="b">
+		<div data-role="content">
+			<ul id="subCategories" style="list-style: none; margin-top: 10%; padding:0 ;">
+			    <!-- <li>
+			    <div align="center">
+			    	<font size="6" class="fontfamily">30 DAYS TO BIGGER SHOULDERS</font>
+			    	<br>
+			    	<font size="5" class="fontfamilySecond">3 moves need resitance band</font>
+			    </div>
+				</li>
+			    <li>
+			    	<div align="center">
+			    	<font size="6" class="fontfamily">20 DAYS TO GREAT THIGH</font>
+			    	<br>
+			    	<font size="5" class="fontfamilySecond">5 moves need resitance band</font>
+			    </div>
+				</li>
+			    <li>
+			    	<div align="center">
+			    	<font size="6" class="fontfamily">FLAT ABS IN NINE DAYS</font>
+			    	<br>
+			    	<font size="5" class="fontfamilySecond">9 moves need resitance band</font>
+			    </div>
+				</li> -->
+			</ul>
+		</div>
+		
+	<div data-role="footer" data-position="fixed"  data-fullscreen="false">
+			<div data-role="navbar">
+				<ul>
+					<li>
+						<div align="center" >
+							<img src="img/previous.png" id="scprevbtn"/>
+						</div>
+						
+					</li>
+					<li>
+						<div align="center">
+							<img src="img/done.png" id="scatselect" />
+						</div>
+					</li>
+					<li>
+						<div align="center">
+							<img src="img/next.png"  id="scnextbtn">
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Page Content for content screen -->
+	<div data-role="page" id="pageContent" data-theme="b">
+		<div data-role="content">
+			<font size="6" class="fontfamilySecond">
+				During video, tap once to pause and perform reps;
+				tap again to resume.
+			</font>
+		</div>
+		<div data-role="footer" data-position="fixed" data-fullscreen="false">
+			<div data-role="navbar">
+				<ul>
+					<li>
+						<div align="center" >
+							<img src="img/previous.png" id="backbutton"/>
+						</div>
+						
+					</li>
+					<li>
+						<div align="center">
+						</div>
+					</li>
+					<li>
+						<div align="center" >
+							<img src="img/video.png"  id="playvid">
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Page Video for list view screen -->
+	<div data-role="page" id="pageVideo" data-theme="b">
+		<div data-role="content" style=" margin: 0; padding: 0;">
+			<div id="player"></div>
+			 <!-- <video id='v' onclick="playPause()" src='vid/low.mp4' autoplay='autoplay' controls></video> --> 
+		</div>
+	</div>
+	
+	<!-- Page End Splash for great workout splash screen -->
+	<div data-role="page" id="pageEndSplash" data-theme="b">
+		<div data-role="content" style="padding: 0; margin: 0;">
+			<img src="img/great_workout.png" alt="workout image" style="width: 100%; height: 100%; padding: 0; margin: 0;" />
+		</div>
+	</div>
+</body>
+</html>

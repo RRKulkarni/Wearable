@@ -1,0 +1,259 @@
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="DistributorSignature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="author-signature.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>K/OgCeP32RTNA8hx8xIBjfQ+3/fdIG6ziHtPyryde2Q=</DigestValue>
+</Reference>
+<Reference URI="config.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>b0oyp6sw7snLqDVZBQYRDv9GJK9b3ZPEnf/TiUnA3ho=</DigestValue>
+</Reference>
+<Reference URI="css/jquery.mobile-1.4.2.min.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XRzo6FsOCLRktqEhykCEJKl+DUDGA/CmN62iUEifVi8=</DigestValue>
+</Reference>
+<Reference URI="css/wearablestyle.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jdDxEc7HuIzCrK8FWAVQn6VnW295mblapC1pzoeT+Fo=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-Black.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aYse9J/JJuJerJANZaF3dZZcpCNWzMbmllX/LjnLzCw=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-BlackItalic.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>tzApTemRVLtx5jkcX7JmoPtfzpHKrmN591i4hPFW2+8=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-Bold.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>W5CwSF75mmz6fZn3GmT+WIgBsrfV8+L60Z8t+oIrA/Q=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-BoldItalic.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IqB05B8eODKvo+Y8H+W1XZUzWnuH38Uj1gwhOg4qYYE=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-ExtraBold.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ER54siLbC4H63VnYgGb0sJ41ct+hH68jbqZoX6ykyco=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-ExtraBoldItalic.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ZdIuctfj3LF4HB6C4ZyTLr4w9LmlKCc7Dsmycmq6+TI=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-Italic.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uZZczgCaZU3ham3gZlB784+fpkP3x1g5FzD8Wrfu+p8=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-Light.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>saVgNEBo4UoQrn67joN2ySuY5CakFSzZSNeC49zUnvc=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-LightItalic.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FqOLgep+vY1rV+f9VyYAQ3hN+3WBYn9hyR24WLeYzd8=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-Medium.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>X0FIr6+UUr5eirmjteA1FuTW8BsqbDiMEH5hitHq3IQ=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-MediumItalic.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>7s94ZSsriMM9gJ5YRcfWhWcTJOwmooStkF0+kXCUtVA=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-SemiBold.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nkALLMYNazsG6X75TZ2ON2dKsk+8HHGOxvbnk2dJAX4=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-SemiBoldItalic.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>s02DUaRPvB4HMejaH98Bk1DJteRuWcuRavZPrBSvygw=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-Thin.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rxEZp/AWygMi4kytulUZ787PPMdgPREa9pR6VDwrokU=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-ThinItalic.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AWeHbw5CKwVynSv/dkfhHX378hQscXUyAONQ8nufQbI=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-Ultra.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>M3M9IJLU4TnQ4u+snoJked57L91H09ObBVwkwYCizsc=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-UltraItalic.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>iCenprN1bJXycMyjCzy7U1gJR/dQwWP3w7fAmOQk6tA=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-UltraLight.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/VNe3U7AUPNLDaRQsxmZBi/vWOOZ4pynsQxDhxGymaQ=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud-UltraLightItalic.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>7rOTtIscClCi/r3q+Ab5zAG3Cda84++HXRBcMwYVwFQ=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaud.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1uFKsBzxHRtAp5bkJH+NrUUdPtg46Rp+NUMu50VH/IA=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaudified-Bold.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>L6h3eU1Wzq7bgDsFp4Xjg7NzvDb5MFZYBskSQtKdWyo=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaudified-BoldItalic.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1fX5KWSxiXCVyICsuY5EJX+qzPoYHdQcmpjBOcJAYB4=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaudified-Light.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>7RydA25oTAs+tXOg5SrFB7W1T3MArMvoWoaAdCFGZ9E=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaudified-LightItalic.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>US8ehX5Q0Y4xJW88/olxLt5T5t/kQ82K7Z+0HZygaRs=</DigestValue>
+</Reference>
+<Reference URI="fonts/Vaudified-Medium.otf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ymw7/kikNOzntiu/mhnd36a4PhB1kYjHSC1u+hNUSEU=</DigestValue>
+</Reference>
+<Reference URI="icon.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>EOzqHFXcs5LjoW/ZFTj2t+hftosDGMXtMqGOCCkw5yQ=</DigestValue>
+</Reference>
+<Reference URI="img/details.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>m10wP2MGX+U/obJBMXEKXAAnulBS6N3h1KTBLGRsfXY=</DigestValue>
+</Reference>
+<Reference URI="img/done.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3w684o70a6zY8/BfvxNDPnWscM+SLfxtXrhZFRU5a4k=</DigestValue>
+</Reference>
+<Reference URI="img/great_workout.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Bcc8QoQyqr8IqHIyKtEIl6AiMK7vCsOFwL5ysuFVEjY=</DigestValue>
+</Reference>
+<Reference URI="img/logo.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>EOzqHFXcs5LjoW/ZFTj2t+hftosDGMXtMqGOCCkw5yQ=</DigestValue>
+</Reference>
+<Reference URI="img/next.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jR3rpz5bSbGKMvdQbgEZJhZhU6g//CZLIcGxgxYfqac=</DigestValue>
+</Reference>
+<Reference URI="img/previous.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>k4NAiR58doTeqMODsCNSxr6kky8pqsLVGXPk/OcwCAw=</DigestValue>
+</Reference>
+<Reference URI="img/video.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CoRYU9X8/CeGfo9UkcIQgjyfIwKaLPmiINVt1olXQkY=</DigestValue>
+</Reference>
+<Reference URI="img/workout_selector.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>96enukrUKJ6eKUE+tKRKbJMj7HrZvYOd6KNWBYmFDfA=</DigestValue>
+</Reference>
+<Reference URI="index.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qkJXwYgX6IWCNh/Nx1PmrQ9wgZRPPWDirft9LmfzMso=</DigestValue>
+</Reference>
+<Reference URI="js/database.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9KWaCxsVBJJdY63/aRtDIFjLMJ837VEjrc3opct9qzQ=</DigestValue>
+</Reference>
+<Reference URI="js/jquery-1.10.2.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>C6CB9UYIS9UJeqinPHWTHVqh/E1uhG5Twh+Y5qFQmYg=</DigestValue>
+</Reference>
+<Reference URI="js/jquery.mobile-1.4.2.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+Y/Ugyg2KRTaVZq3a0fu/vPYVDevo21doyftQLKEeqo=</DigestValue>
+</Reference>
+<Reference URI="js/main.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>L+l9vTw6MCE9/NXb4OmTgeFU/Jk8pO2FXhzTzrvU3AY=</DigestValue>
+</Reference>
+<Reference URI="js/wearable.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>v129Ilnsh7yI3k+yapt74NrCrRWfNyw1x5+c3JQxXsI=</DigestValue>
+</Reference>
+<Reference URI="vid/CHESTBACK.mp4">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2bI1QrjF8et/O/LQVcT+qsj8t/gevDmsJuDMfJMVy2w=</DigestValue>
+</Reference>
+<Reference URI="vid/CORE.mp4">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9drUq23yN5lg54DDtm2m/TXEZZYAN/L7jsCNm2TmYHM=</DigestValue>
+</Reference>
+<Reference URI="vid/LEGS.mp4">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pS5R8Cu+f3N2xnKw47cwKDFK1O7oPlAbbuZu5tM7NaQ=</DigestValue>
+</Reference>
+<Reference URI="vid/LOWERBODY.mp4">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pS5R8Cu+f3N2xnKw47cwKDFK1O7oPlAbbuZu5tM7NaQ=</DigestValue>
+</Reference>
+<Reference URI="vid/TOTALBODY.mp4">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Wxv8pw6tKaQS+Mrq4/lpLE4OleQHlMq3KormUxnTnCg=</DigestValue>
+</Reference>
+<Reference URI="vid/UPPERBODY.mp4">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8HGOn16Ym5Fm83DVTrHELrKLi6OR+geDAy/8TA6uU8Q=</DigestValue>
+</Reference>
+<Reference URI="#prop">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>u/jU3U4Zm5ihTMSjKGlGYbWzDfRkGphPPHx3gJIYEJ4=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+Qp4laJptdgGp2fce+HzbjXta6063J1nnYvN4WBZc+LjXoG6k1LSf2gD0ybKyB3C5AJOm+bQ6QnX4
+Iq8aJc5O9661krnRqdfR8Ih9mUzwRYoDyluaZr7S3lmnX8Wf6dW6sKmk94rVqDNCoMwq15P9fkKS
+pBdBJm66RKEf9XHPF5Qm28U00KLNf+iVY2PsNHqin11h0NZhO167PgbMu3sz10CWkiLVVj0M8vDV
+fRdnLe30aSTvEaMG+mpaLkGGXoEewTqn1Fq2tPxu9GpT3F5lSLVkE92ey2NoFm602xy2sqr5Z356
+rgeZFaGM6Pf3uShlgoYH5iH7cQ9kjcxhp6GZew==
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIDUDCCAjigAwIBAgICIcYwDQYJKoZIhvcNAQELBQAwWzEaMBgGA1UECgwRVGl6ZW4gQXNzb2Np
+YXRpb24xDzANBgNVBAsMBk1vYmlsZTEsMCoGA1UEAwwjR0VBUjIgU0RLIERFVkVMT1BFUiBQdWJs
+aWMgQ0EgQ2xhc3MwHhcNMTQwMzEyMDUyNDAxWhcNMjEwMzEwMDUyNDAxWjBfMRowGAYDVQQKDBFU
+aXplbiBBc3NvY2lhdGlvbjEPMA0GA1UECwwGTW9iaWxlMTAwLgYDVQQDDCdHRUFSMiBTREsgREVW
+RUxPUEVSIFB1YmxpYyBTaWduZXIgQ2xhc3MwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQC0SlB52nMXbt2xBDjk2UzPQi70x7VDDzN9exjNIcRa2vTAhRuiFnfgA15e55gsXxKh20kW+SKi
+EY2p1aBiZUIQkDqnBhrw40zGGGFlFLDYqccIcUbK+HcP1YI8aOdtOBBFAvMQtA+Ec7CZP6Vii/Vt
++ZhPnvTGm9yFHLETfLcpiItmJZ2GLXniB7vkarKKEJv7YS0We1NSbRR8A5sF3m5/7KiK9xgTuT77
+rn72wCKP4SP6WGC6Z39Cj1U9XyeSAKvK2TUyJE9/feply+N+Xhd4ELDUGhn5OCgc+ImwPdGMU31v
++Hd2tcuRAf+r6H6S9JuL4ZB5/FFffao+cdCybzhzAgMBAAGjGjAYMAkGA1UdEwQCMAAwCwYDVR0P
+BAQDAgeAMA0GCSqGSIb3DQEBCwUAA4IBAQAEX3Ha9aROHJmI3oTshKkigEMdbJcdDOjsstApmB6l
+bHAz5xdiWRCPamfq6Ht5yc118g3b7HOX9Zf+rTWNFTBBUIUpOigTXUSUOu138wcIwhwkW6m4kbYo
+w4Y/lWg04l2nun5U2PRQtXIN1aUtdPrH1pZEsN5nMfPqMwSczCnIiPSwg0XB2bgVbjkLuCDvq9t3
+FrYcg7TdKg10ZgYZ88zGoVBrj+9azxNCc9n3qNaprjS/LPfts4hzE85vjQVe4ZUqfIJsOrfW51MX
+BH8UfqfNgAkz7cjY49LeLXPLSVyzFT/6lZNky6mjsDU98J/JwKu7ZaCLSA5d5OAXUWU9d9Sv
+</X509Certificate>
+<X509Certificate>
+MIIDRDCCAiygAwIBAgICJ/wwDQYJKoZIhvcNAQELBQAwXTEaMBgGA1UECgwRVGl6ZW4gQXNzb2Np
+YXRpb24xDzANBgNVBAsMBk1vYmlsZTEuMCwGA1UEAwwlR0VBUjIgU0RLIERFVkVMT1BFUiBQdWJs
+aWMgUm9vdCBDbGFzczAeFw0xNDAzMTIwNTIzMjFaFw0yOTAzMDgwNTIzMjFaMFsxGjAYBgNVBAoM
+EVRpemVuIEFzc29jaWF0aW9uMQ8wDQYDVQQLDAZNb2JpbGUxLDAqBgNVBAMMI0dFQVIyIFNESyBE
+RVZFTE9QRVIgUHVibGljIENBIENsYXNzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+gzF11hwd//JagcKjlI4SAGLlCOI9Owbski9P4n7bcz6lsrlW2ZqDzmIOXLga88X9m7NQjOywYaIr
+qQfBvftgIbqngMjVXY+VtKS3TpvxQI18qkC5Q9yrokXrf/3HpTnVM3q28H7T/tf9/mcQBFjWi/mT
+epP258+GS2LI+etcQSPeNBHeP6xUcpAUQQl++Kfi14DVfLrvWhBaAPjw1MOZS3MGHoiGOAsK/M8u
+aWdKmeR0lvtXMoM9/DpRSELOnhhO8nXLE972+y2vX30eBtJRfikvXoyYabZi9TQByOCzNEb39GPe
+F6gTI1kyBQPGRVjxD6IQATmuzljCNTZswIQZpQIDAQABoxAwDjAMBgNVHRMEBTADAQH/MA0GCSqG
+SIb3DQEBCwUAA4IBAQBsTK6B8IkO//2nfnnrJe8KKzgLG3NZwDV40WVizUFVYuZURyPGk/bIKhlQ
+Ly8pPUNJOmm56kO6yaOloWaKe3XtCT3dawckdAIkmQf9/HPfhTOv+FcvfT8aSN4MJyAG46NfKnsy
+9fIA9xmhTFszMkY8hpQGB7UBzN7RNHVth0B41ovqm5Pbdi3/BaggIkjD3hQrnQFR0FfZjvtWwR0o
+Locnph1QC1z/XNOHPc3ulB+XaOazFTK/RBjMPllsrwNWdAdWjnp6kn6pkukvNkKhnQVHSCwsiJLc
+Dic1yGh55MM1U+HgJ1cSrsY/sGUEuQ80N7CHA/9LybDtO2wQB9Wjnwvu
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+<Object Id="prop"><SignatureProperties xmlns:dsp="http://www.w3.org/2009/xmldsig-properties"><SignatureProperty Id="profile" Target="#DistributorSignature"><dsp:Profile URI="http://www.w3.org/ns/widgets-digsig#profile"></dsp:Profile></SignatureProperty><SignatureProperty Id="role" Target="#DistributorSignature"><dsp:Role URI="http://www.w3.org/ns/widgets-digsig#role-distributor"></dsp:Role></SignatureProperty><SignatureProperty Id="identifier" Target="#DistributorSignature"><dsp:Identifier></dsp:Identifier></SignatureProperty></SignatureProperties></Object>
+</Signature>
